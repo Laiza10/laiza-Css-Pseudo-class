@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(155, 168, 183, 1) 100%);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+button,
+input,
+a {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    width: 200px;
+    max-width: 100%;
+}
+
+button {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(24, 11, 29, 1) 100%);
+}
+
+button:hover {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(64, 60, 65, 1) 100%);
+}
+
+button:active {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
+    background: rgb(234, 114, 163);
+    background: radial-gradient(circle, rgba(234, 114, 163, 1) 1%, rgba(232, 197, 241, 0.964) 78%);
+}
+
+input {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(162, 131, 174, 1) 100%);
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    background: rgb(244, 215, 227);
+    background: radial-gradient(circle, rgba(244, 215, 227, 1) 1%, rgba(172, 161, 176, 1) 100%);
+    border: 2px solid #ff0000;
+    
+}
+
+a {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(24, 11, 29, 1) 100%);
+}
+
+a:hover {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(162, 131, 174, 1) 100%);
+    text-decoration: underline;
+}
+
+a:active {
+    font-weight: bold;
+}
